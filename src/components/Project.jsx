@@ -7,7 +7,7 @@ import { faCode, faLink } from '@fortawesome/free-solid-svg-icons'
 export default function Project() {
   // not dynamic, we would like to get this data from a db particularly firebase firestore
   return (
-    <article className='flex items-center my-4 bg-gray-100 rounded-2xl drop-shadow-md gap-6 flex-col lg:flex-row overflow-hidden'>
+    <article className='flex items-center my-4 bg-gray-100 rounded-2xl gap-6 flex-col lg:flex-row overflow-hidden'>
       <img src={ConnectMe} alt="ConnectMe Project" className='w-full lg:w-2/5 hover:scale-105 duration-300 ease-in-out'/>
       <div className='flex flex-col gap-1.5 p-6'>
         <h1 className='text-1xl font-bold'>Connect Me | Online Social Network </h1>
