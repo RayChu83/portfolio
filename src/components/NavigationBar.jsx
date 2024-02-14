@@ -5,7 +5,7 @@ export default function NavigationBar() {
   return (
     <nav className='bg-gray-100 h-16 m-4 rounded-2xl drop-shadow flex items-center p-4 justify-between'>
       <img src={Logo} alt="logo" height="35px" width="35px" className='cursor-pointer'/>
-      <ul className='flex list-none items-center gap-6'>
+      <ul className='hidden list-none items-center gap-6 sm:flex'>
         <a href="#greeting">
           <li className='cursor-pointer font-medium'>Home</li>
         </a>
