@@ -25,8 +25,8 @@ export default function Contact() {
     // clear the form data
   }
   return (
-    <section className='flex items-center justify-between gap-2 p-8' id='contact'>
-      <article className='w-3/6'>
+    <section className='flex justify-between gap-2 p-8 sm:flex-row flex-col sm:items-center' id='contact'>
+      <article className='sm:w-3/6 w-full'>
         <h1 className='text-2xl font-bold'>Feel Free to Reach Out:</h1>
         <ul>
           <li><a href="mailto:rayc12079@gmail.com"><FontAwesomeIcon icon={faEnvelope}/> rayc12079@gmail.com</a></li>
@@ -34,7 +34,7 @@ export default function Contact() {
           <li><a href="https://www.linkedin.com/in/raychu83/" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a></li>
         </ul>
       </article>
-      <form className='flex flex-col gap-4 w-3/6' onSubmit={sendEmail} ref={form}>
+      <form className='flex flex-col gap-4 w-full sm:w-3/6' onSubmit={sendEmail} ref={form}>
         {formMessage && <p className={`text-center p-2 rounded-md ${formMessage === "Message Sent!" ? "bg-green-400" : "bg-red-400"} text-white font-semibold`}>{formMessage}</p>}
         <input type="text" className='bg-gray-100 rounded-md border-none outline-blue-500 placeholder:text-gray-500 p-2 drop-shadow-md' placeholder='Name' value={formData.name} onChange={handleChange} name="name" required/>
         <input type="email" className='bg-gray-100 rounded-md border-none outline-blue-500 placeholder:text-gray-500 p-2 drop-shadow-md' placeholder='Email' value={formData.email}onChange={handleChange} name="email" required/>
