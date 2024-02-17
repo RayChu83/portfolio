@@ -27,7 +27,7 @@ export default function Contact() {
     // clear the form data
   }
   return (
-    <motion.section className='flex justify-between gap-2 p-8 sm:flex-row flex-col sm:items-center' id='contact'  initial={{opacity : 0, y : 50}} whileInView={{opacity : 1, y : 0}} transition={{duration : ".6", ease : "easeInOut"}} viewport={{ once: true }}>
+    <motion.section className='flex justify-between gap-2 p-8 sm:flex-row flex-col sm:items-center' id='contact' initial={{opacity : 0, y : 50}} whileInView={{opacity : 1, y : 0}} transition={{duration : ".6", ease : "easeInOut"}} viewport={{ once: true }}>
       <article className='sm:w-3/6 w-full'>
         <h1 className='text-2xl font-bold'>Feel Free to Reach Out:</h1>
         <ul>

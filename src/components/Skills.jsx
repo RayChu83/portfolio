@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 
 import html from "../images/html.png"
 import css from "../images/css.png"
+import python from "../images/python.png"
+import django from "../images/django.png"
 import javascript from "../images/javascript.png"
 import react from "../images/react.png"
 import reactRouter from "../images/reactRouter.png"
@@ -18,6 +20,8 @@ export default function Skills() {
       <div className='flex flex-wrap items-center gap-4 justify-center'>
         <img src={html} alt="HTML" className='drop-shadow-md cursor-pointer'/>
         <img src={css} alt="CSS" className='drop-shadow-md cursor-pointer'/>
+        <img src={python} alt="PYTHON" className='drop-shadow-md cursor-pointer'/>
+        <img src={django} alt="DJANGO" className='drop-shadow-md cursor-pointer'/>
         <img src={javascript} alt="JAVASCRIPT" className='drop-shadow-md cursor-pointer'/>
         <img src={react} alt="REACT" className='drop-shadow-md cursor-pointer'/>
         <img src={reactRouter} alt="REACT ROUTER" className='drop-shadow-md cursor-pointer' />

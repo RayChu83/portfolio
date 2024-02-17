@@ -12,7 +12,10 @@ export default function ConnectMe() {
       <div className='flex flex-col gap-1.5 p-6'>
         <h1 className='text-1xl font-bold'>Connect Me | Online Social Network </h1>
         <div className='flex items-center gap-2 flex-wrap'>
-          <Tag tag="React Router V6"/>
+          <Tag tag="HTML"/>
+          <Tag tag="CSS"/>
+          <Tag tag="Javascript"/>
+          <Tag tag="React / React Router V6"/>
           <Tag tag="Firebase"/>
           <Tag tag="Redux"/>
         </div>
