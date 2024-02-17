@@ -15,7 +15,7 @@ export default function ConnectMe() {
           <Tag tag="HTML"/>
           <Tag tag="CSS"/>
           <Tag tag="Javascript"/>
-          <Tag tag="React / React Router V6"/>
+          <Tag tag="React / React Router"/>
           <Tag tag="Firebase"/>
           <Tag tag="Redux"/>
         </div>
