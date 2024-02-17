@@ -1,8 +1,9 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 export default function About() {
   return (
-    <article className='p-8' id='about'>
+    <motion.article className='p-8' id='about' initial={{opacity : 0, y : 50}} whileInView={{opacity : 1, y : 0}} transition={{duration : ".6", ease : "easeInOut"}} viewport={{ once: true }}>
       <h1 className='text-2xl font-bold'>About me:</h1>
       <div className='flex flex-col gap-4'>
         <ul>
@@ -11,6 +12,6 @@ export default function About() {
           <li className='my-2 list-disc'>At this very moment my dedication for building web applications remains strong. Despite my young age, I still remain driven to learn and improve. </li>
         </ul>
       </div>
-    </article>
+    </motion.article>
   )
 }

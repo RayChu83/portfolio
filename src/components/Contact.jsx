@@ -1,5 +1,7 @@
 import React, { useRef, useState } from 'react'
+import { motion } from 'framer-motion'
 import emailjs from '@emailjs/browser';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComment, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -25,7 +27,7 @@ export default function Contact() {
     // clear the form data
   }
   return (
-    <section className='flex justify-between gap-2 p-8 sm:flex-row flex-col sm:items-center' id='contact'>
+    <motion.section className='flex justify-between gap-2 p-8 sm:flex-row flex-col sm:items-center' id='contact'  initial={{opacity : 0, y : 50}} whileInView={{opacity : 1, y : 0}} transition={{duration : ".6", ease : "easeInOut"}} viewport={{ once: true }}>
       <article className='sm:w-3/6 w-full'>
         <h1 className='text-2xl font-bold'>Feel Free to Reach Out:</h1>
         <ul>
@@ -41,6 +43,6 @@ export default function Contact() {
         <textarea className='bg-gray-100 rounded-md border-none outline-blue-500 placeholder:text-gray-500 p-2' placeholder='Message' value={formData.message} onChange={handleChange} name="message" required></textarea>
         <button className=' bg-blue-500 text-white p-2 rounded-md font-semibold hover:bg-blue-600'>Submit</button>
       </form>
-    </section>
+    </motion.section>
   )
 }

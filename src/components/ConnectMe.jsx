@@ -18,7 +18,7 @@ export default function ConnectMe() {
         </div>
         <p>Connect Me is a online social network where users can create, comment and interact with posts, customize your profiles, connect with others by following & more</p>
         <div className='flex items-center gap-2 flex-wrap'>
-          <a href='https://app-connectme.netlify.app/' target='_blank' rel="noreferrer" className='p-2 rounded-md bg-blue-500 font-semibold text-white text-sm'><FontAwesomeIcon icon={faLink}/> View Live</a>
+          <a href='https://app-connectme.netlify.app/' target='_blank' rel="noreferrer" className='p-2 rounded-md bg-blue-500 font-semibold text-white text-sm hover:bg-blue-600'><FontAwesomeIcon icon={faLink}/> View Live</a>
           <a href="https://github.com/RayChu83/ConnectMe" target='_blank' rel="noreferrer" className='p-2 rounded-md bg-black font-semibold text-white text-sm'><FontAwesomeIcon icon={faCode} /> Source Code</a>
         </div>
       </div>
