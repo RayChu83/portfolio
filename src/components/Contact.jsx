@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import emailjs from '@emailjs/browser';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faComment, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faComment, faEnvelope, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function Contact() {
@@ -33,6 +33,7 @@ export default function Contact() {
         <ul>
           <li><a href="mailto:rayc12079@gmail.com"><FontAwesomeIcon icon={faEnvelope}/> rayc12079@gmail.com</a></li>
           <li><FontAwesomeIcon icon={faComment} /> 646-925-0205</li>
+          <li><a href="/assets/resume.pdf" target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faFilePdf} /> View Resume</a></li>
           <li><a href="https://www.linkedin.com/in/raychu83/" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a></li>
         </ul>
       </article>

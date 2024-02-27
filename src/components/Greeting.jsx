@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-import photo from "../images/pfp.jpg"
 
 export default function Greeting() {
   return (
@@ -12,7 +11,7 @@ export default function Greeting() {
         <h2 className='text-2xl font-bold'>Front-End Developer</h2>
         <a href="#projects" className='cursor-pointer text-1xl text-blue-500 font-medium hover:text-blue-600 w-fit'>View Projects</a>
       </article>
-      <img src={photo} alt='profile' width="225" className='rounded-full drop-shadow-md'/>
+      <img src="./assets/pfp.jpg" alt='profile' width="225" className='rounded-full drop-shadow-md'/>
     </motion.section>
   )
 }
