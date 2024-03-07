@@ -24,7 +24,6 @@ export default function Contact() {
       setFormMessage("Message Sent!")
     })
     .catch(err => setFormMessage("An error has occurred. Please try again later!"))
-    // clear the form data
   }
   return (
     <motion.section className='flex justify-between gap-4 p-8 sm:flex-row flex-col sm:items-center' id='contact' initial={{opacity : 0, y : 50}} whileInView={{opacity : 1, y : 0}} transition={{duration : ".6", ease : "easeInOut"}} viewport={{ once: true }}>

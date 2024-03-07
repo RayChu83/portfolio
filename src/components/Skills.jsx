@@ -9,9 +9,8 @@ export default function Skills() {
       <div className='flex flex-wrap items-center gap-4 justify-center'>
         <img src="./assets/html.png" alt="HTML" className='drop-shadow-md cursor-pointer'/>
         <img src="./assets/css.png" alt="CSS" className='drop-shadow-md cursor-pointer'/>
-        <img src="./assets/python.png" alt="PYTHON" className='drop-shadow-md cursor-pointer'/>
-        <img src="./assets/django.png" alt="DJANGO" className='drop-shadow-md cursor-pointer'/>
         <img src="./assets/javascript.png" alt="JAVASCRIPT" className='drop-shadow-md cursor-pointer'/>
+        <img src="./assets/typescript.png" alt="TYPESCRIPT" className='drop-shadow-md cursor-pointer'/>
         <img src="./assets/react.png" alt="REACT" className='drop-shadow-md cursor-pointer'/>
         <img src="./assets/reactRouter.png" alt="REACT ROUTER" className='drop-shadow-md cursor-pointer' />
         <img src="/assets/firebase.png" alt="FIREBASE" className='drop-shadow-md cursor-pointer'/>
