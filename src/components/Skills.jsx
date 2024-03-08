@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 export default function Skills() {
   return (
     <motion.section className='p-8' initial={{opacity : 0, y : 50}} whileInView={{opacity : 1, y : 0}} transition={{duration : ".6", ease : "easeInOut"}} viewport={{ once: true }}>
-      <h1 className='text-2xl font-bold'>Technical Skills:</h1>
+      <h1 className='text-2xl font-bold'>Technologies:</h1>
       <br />
       <div className='flex flex-wrap items-center gap-4 justify-center'>
         <img src="./assets/html.png" alt="HTML" className='drop-shadow-md cursor-pointer'/>
